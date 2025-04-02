@@ -1,35 +1,35 @@
-# Day 01 – QML Buttons Layout
+# Day 01 – QML Buttons Layout UI
 
-This is a simple QML project demonstrating:
+This is a simple Qt Quick (QML) project demonstrating how to design interactive buttons with layout alignment and click events.
 
-- How to use `ColumnLayout` for vertical arrangement
-- How to create interactive `Rectangle` buttons with `MouseArea`
-- How to display text in each button
-- How to log clicks using `console.log()`
+---
 
-## Preview
+## 📋 Features
 
-🟦 The application displays 3 rectangular buttons labeled:
-- First 😊
-- Second 😊
-- Third 😊
+- 💡 Built with QML and Qt Quick Controls 2
+- 📐 Uses ColumnLayout for clean vertical alignment
+- 🎨 3 rectangular buttons with custom colors:
+  - 🔵 Blue button labeled "First 😊"
+  - 🟢 Green button labeled "Second 😊"
+  - 🟠 Orange button labeled "Third 😊"
+- 🎯 Clickable buttons with MouseArea and console logging
 
-📌 Each button is:
-- Center-aligned
-- Styled with 3 colors and rounded corners
-- Clickable — with a log message printed on click (visible in `Application Output`)
+---
 
-## How to Run
+## 📸 Screenshot
 
-1. Open `CMakeLists.txt` in Qt Creator
-2. Click the Run ▶️ button
-3. Open "Application Output" tab to view console logs on click
+Below is a preview of the UI:
 
-## Screenshot 
+![UI Screenshot](Screenshot.png)
 
-📷
-![UI Screenshot](screenshot.png)---
+---
 
-👤 Created by: Farya.ft
-🗓️ Date: 2 Apr 2025 
-🔗 GitHub Repo: git@github.com:farya-ft/qt_day01_helloqml.git
+## 🚀 How to Run
+
+1. Open the project folder in Qt Creator
+2. Make sure you have Qt 5.15 or 6+ installed with QML support
+3. Run the project (`▶️`) or press `Ctrl + R`
+4. Open the “Application Output” tab to see logs like:
+    Clicked First
+    Clicked Second
+    Clicked Third
